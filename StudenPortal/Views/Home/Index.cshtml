@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>
+        The StudentPortal is a web application designed to streamline student management tasks within educational institutions. It provides a user-friendly interface for administrators to add, edit, and delete student records, facilitating efficient management of student information. With features such as student registration, data modification, and access control, the StudentPortal enhances communication and organization between students, faculty, and administrative staff. Through its intuitive design and robust functionality, the StudentPortal simplifies administrative tasks, promotes transparency, and fosters a seamless experience for all stakeholders involved in student management.
+    </p>
+    <form method="get" asp-action="AddStudents" asp-controller="Students">
+        <button type="submit" class="btn btn-primary">Add Student</button>
+    </form>
+</div>
