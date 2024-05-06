@@ -1,1 +1,1 @@
-# StudenPortal
+# StudentPortal
